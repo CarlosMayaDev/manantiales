@@ -1,0 +1,58 @@
+.logo {
+    width: 100px; 
+    height: auto;
+}
+
+nav {
+    background-color: #5a8bff;  
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler, .menu label {
+    display: none;
+}
+
+.hamburger {
+    display: none; /* Oculta la hamburguesa por defecto */
+  }
+
+
+
+@media screen and 
+(max-width: 600px){
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+    .menu.open {
+        max-height: 100vh;
+      }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .nav label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+    .hamburger {
+        display: block; /* Muestra la hamburguesa en pantallas más pequeñas */
+        cursor: pointer; /* Cambia el cursor al estilo de un puntero */
+      }
+}
