@@ -14,7 +14,8 @@ const NavBar = () => {
         <nav className={styles.nav}>
 
             <Link to={"/"}>
-                <img src="12A579C4-0A0C-4F20-8873-56741347D7B8.PNG" alt="" className={styles.logo}/>
+                <img src="Manantiales_logo1.PNG" alt="" className={styles.logo}/>
+                <img src="Manantiales_logo2.PNG" alt="" className={styles.logo2}/>
             </Link>
 
             {/* <input type="checkbox" id="toggler" /> */}
