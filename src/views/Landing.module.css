@@ -1,4 +1,43 @@
-.videoDiv {
-    display: flex;
-    justify-content: center;
+/* Estilos para el video */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+/* Estilos para la imagen */
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para el contenedor de texto */
+.textContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilos para el texto */
+.textContainer .bienvenidos {
+    font-size: 2em;
+    color: #fff; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo del texto con opacidad */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
