@@ -33,11 +33,41 @@ img {
 
 /* Estilos para el texto */
 .textContainer .bienvenidos {
-    font-size: 2em;
+    font-size: 32px;
     color: #fff; /* Color del texto */
-    background-color: rgba(0, 0, 0, 0.4); /* Fondo del texto con opacidad */
-    padding: 10px;
-    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo del texto con opacidad */
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 400px;
+
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal; /* Restablece la negrita para h3 */
+}
+
+.h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal; /* Restablece la negrita para h3 */
+}
+
+.h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal; /* Restablece la negrita para h3 */
+    color: #fff;
 }
 
 
