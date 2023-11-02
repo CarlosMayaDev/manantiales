@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Landing = () => {
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.videoContainer}>
         <video src={videoLanding} autoPlay loop muted />
       </div>
 
@@ -29,8 +29,9 @@ const Landing = () => {
       </div>
 
       <div className={styles.div1}>
-        <ImageCarousel />
+        <h1 className={styles.h7}>Nuestros ministerios</h1>
       </div>
+      <ImageCarousel />
     </div>
   );
 };
