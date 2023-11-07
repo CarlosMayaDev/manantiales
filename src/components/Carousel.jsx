@@ -8,13 +8,12 @@ import styles from "./Carousel.module.css";
 
 function ImageCarousel() {
   return (
-    <div className={styles.carouselContainer}>
+    <div>
       <Carousel
         autoPlay={true}
         interval={3500}
         showStatus={false}
-        showArrows={true}
-        showThumbs={false}
+        showThumbs={true}
         transitionTime={1000} /* Tiempo de transición en milisegundos */
       >
         <div className={styles.cardContainer}>

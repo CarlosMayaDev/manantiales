@@ -1,20 +1,9 @@
-.carouselContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    overflow: hidden; /* Para ocultar las cartas adicionales que no se muestran */
-    margin-bottom: 50px;
-    border-radius: 30px;
 
-  }
-  
-  .cardContainer {
+  .cardContainer { 
     display: flex;
     justify-content: space-between;
-    gap: 40px;
     width: 100%; /* Asegura que las tarjetas ocupen el 100% del ancho disponible */
     max-width: 1200px; /* Establece un ancho máximo para evitar que se estiren demasiado en pantallas grandes */
-    margin: 0 auto; /* Centra horizontalmente las tarjetas en el contenedor */
+    margin: 50px auto; /* Centra horizontalmente las tarjetas en el contenedor */
   }
   

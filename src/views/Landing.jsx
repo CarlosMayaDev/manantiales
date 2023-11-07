@@ -31,7 +31,12 @@ const Landing = () => {
       <div className={styles.div1}>
         <h1 className={styles.h7}>Nuestros ministerios</h1>
       </div>
-      <ImageCarousel />
+      <div className={styles.imageCarouselWithMargin}>
+          <ImageCarousel />
+      </div>
+      <div className={styles.redesContainer}>
+        <h1 className={styles.h7}>Encuéntranos en redes!</h1>
+      </div>
     </div>
   );
 };
