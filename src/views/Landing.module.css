@@ -54,7 +54,7 @@ img {
 .textContainer .bienvenidos {
     font-size: 32px;
     color: #fff; /* Color del texto */
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo del texto con opacidad */
+    background-color: rgba(96, 114, 217, 0.7); /* Fondo del texto con opacidad */
     padding: 100px;
     border-radius: 20px;
 }
@@ -70,11 +70,8 @@ img {
 .redesContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 100px;
-    width: 100%;
-    background-color: red;
 }
 
 .h1 {
@@ -108,6 +105,30 @@ img {
 .imageCarouselWithMargin {
     margin-right: 600px; /* Margen derecho de 300px */
     margin-left: 600px; /* Margen derecho de 300px */
-    background-color: #CEEDFF;
+    background-color: #aac6ff;
     border-radius: 30px;
+  }
+
+  .nuevoMiembro {
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 600px; /* Margen derecho de 300px */
+    margin-left: 600px; /* Margen derecho de 300px */
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .h3Bien {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal; /* Restablece la negrita para h3 */
+    font-size: 28px;
+  }
+
+  .formacionContainer {
+    width: 100%; /* Establece el ancho del contenedor */
+    height: 600px; /* Establece la altura del contenedor */
+    background-image: url('../assets/IMG_1209\ 2.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Escala la imagen para que cubra todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el contenedor */
   }

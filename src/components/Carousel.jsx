@@ -13,7 +13,7 @@ function ImageCarousel() {
         autoPlay={true}
         interval={3500}
         showStatus={false}
-        showThumbs={true}
+        showThumbs={false}
         transitionTime={1000} /* Tiempo de transición en milisegundos */
       >
         <div className={styles.cardContainer}>

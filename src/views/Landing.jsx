@@ -4,6 +4,7 @@ import styles from "./Landing.module.css";
 import videoLanding from "../assets/videoLanding.MP4";
 import imagen1 from "../assets/IMG_1214 22.jpg";
 import { Link } from 'react-router-dom';
+import InstagramFeed from "../components/InstagramFeed";
 
 const Landing = () => {
   return (
@@ -37,6 +38,21 @@ const Landing = () => {
       <div className={styles.redesContainer}>
         <h1 className={styles.h7}>Encuéntranos en redes!</h1>
       </div>
+      <div id="feed-container">
+        <InstagramFeed />
+      </div>
+      <div className={styles.nuevoMiembro}>
+        <h1 className={styles.h7}>¿Es esta tu primera vez aquí en nuestra comunidad?</h1>
+        <h3 className={styles.h3Bien}>Nuestra iglesia no se trata simplemente de un lugar físico; es una familia de creyentes, unidos por la gracia y el amor de Cristo. <br /><br />
+        Si has tomado la decisión de dar un paso de fe y abrir tu corazón a una nueva relación con Jesús, estamos emocionados de celebrar contigo y ser parte de este emocionante capítulo de tu vida. <br /><br />Te invitamos a formar parte de nuestra comunidad y a experimentar todo lo que tenemos preparado para ti.</h3>
+        <Link to="/contactenos">
+        <h3 className={styles.h3Bien} >Estoy buscando conocer mejor a Jesús.</h3>
+        </Link>
+      </div>
+      <div className={styles.formacionContainer}>
+
+      </div>
+
     </div>
   );
 };
