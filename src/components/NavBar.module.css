@@ -10,8 +10,20 @@
     height: auto;
 }
 
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.text:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse (si lo deseas) */
+}
+
 nav {
-    background-color: #7fa8fa;  
+    background-color: rgba(96, 114, 217);  
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -22,6 +34,7 @@ nav {
     list-style: none;
     display: flex;
     gap: 25px;
+    text-decoration: none;
 }
 
 #toggler, .menu label {

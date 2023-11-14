@@ -32,40 +32,40 @@ const NavBar = () => {
             <div className={`${styles.menu} ${menuOpen ? styles.open : ""}`}>
             <ul className={styles.list}>
                 <li>
-                    <Link to={"/conocenos"}>
-                    CONÓCENOS
-                    </Link>
+                    <NavLink to={"/conocenos"} className={styles.text}>
+                    <h3>CONÓCENOS</h3>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to={"/equipo"}>
-                    EQUIPO MINISTERIAL
-                    </Link>
+                    <NavLink to={"/equipo"} className={styles.text}>
+                    <h3>EQUIPO MINISTERIAL</h3>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to={"/ministerios"}>
-                    MINISTERIOS
-                    </Link>
+                    <NavLink to={"/ministerios"} className={styles.text}>
+                    <h3>MINISTERIOS</h3>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to={"/formacion"}>
-                    FORMACIÓN
-                    </Link>
+                    <NavLink to={"/formacion"} className={styles.text}>
+                    <h3>FORMACIÓN</h3>
+                    </NavLink>
                 </li>
 
                 <li>
-                    <Link to={"/contribuciones"}>
-                    CONTRIBUCIONES
-                    </Link>
+                    <NavLink to={"/contribuciones"} className={styles.text}>
+                    <h3>CONTRIBUCIONES</h3>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to={"/palabra"}>
-                    PALABRA
-                    </Link>
+                    <NavLink to={"/palabra"} className={styles.text}>
+                    <h3>PALABRA</h3>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to={"/contactenos"}>
-                    CONTACTENOS
-                    </Link>
+                    <NavLink to={"/contactenos"} className={styles.text}>
+                    <h3>CONTACTENOS</h3>
+                    </NavLink>
                 </li>
             </ul>   
         </div>
