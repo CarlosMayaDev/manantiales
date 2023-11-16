@@ -14,23 +14,18 @@ const Landing = () => {
       <div className={styles.videoContainer}>
         <video src={videoLanding} autoPlay loop muted />
       </div>
-
-      <div className={styles.imageContainer}>
         <div className={styles.textContainer}>
           <div className={styles.bienvenidos}>
-            <h1 className={styles.h1}>¡Somos Manantiales de Amor y Poder!</h1>
-            <h3 className={styles.h3}>Bienvenidos a nuestro espacio virtual. Aquí encontrarán un lugar de encuentro, inspiración y crecimiento espiritual.</h3>
-            <h5 className={styles.h5}>Nuestro compromiso es servirles como fuente de amor, fortaleza y sabiduría a través de la enseñanza de la Palabra de Dios.</h5>
+            <h1 className={styles.h1}>¡Manantiales de Amor y Poder!</h1>
+            <h3 className={styles.h3}>Les damos la más cordial bienvenida a nuestro espacio virtual, un rincón dedicado al encuentro, la inspiración y el crecimiento espiritual.</h3>
+            <h5 className={styles.h5}>Nos enorgullece comprometernos a ser para ustedes una fuente constante de amor, fortaleza y sabiduría mediante la enseñanza de la Palabra de Dios. <br />¡Explora con nosotros este viaje espiritual y descubre las aguas revitalizantes de nuestra comunidad!</h5>
             <Link to="/conocenos">
               <h5 className={styles.h6}>
-                ver mas...
+                Conócenos
               </h5>
             </Link>
           </div>
         </div>
-        <img src={imagen1} alt="imagen1" />
-      </div>
-
       <div className={styles.div1}>
         <h1 className={styles.h7}>Nuestros ministerios</h1>
       </div>

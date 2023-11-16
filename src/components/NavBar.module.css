@@ -23,7 +23,7 @@
 }
 
 nav {
-    background-color: rgba(96, 114, 217);  
+    background-color: rgba(96, 114, 217, 0.9);  
     padding: 10px;
     display: flex;
     justify-content: space-between;
