@@ -1,9 +1,9 @@
 
-  .cardContainer { 
+.cardContainer { 
     display: flex;
     justify-content: space-between;
     width: 100%; /* Asegura que las tarjetas ocupen el 100% del ancho disponible */
     max-width: 1200px; /* Establece un ancho máximo para evitar que se estiren demasiado en pantallas grandes */
-    margin: 50px auto; /* Centra horizontalmente las tarjetas en el contenedor */
+    margin: 70px auto; /* Centra horizontalmente las tarjetas en el contenedor */
   }
   

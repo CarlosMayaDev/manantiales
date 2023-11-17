@@ -1,16 +1,14 @@
 .card {
   width: 400px;
   height: 500px;
-  border: 1px solid #ccc;
   border-radius: 30px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
   margin: 0 10px; /* Espacio uniforme entre las cartas */
   flex: 0 0 calc(33.33% - 20px); /* Distribuye igualmente el espacio para tres cartas */
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
 
 .image {
@@ -20,13 +18,14 @@
 }
 
 .content {
-  padding: 0px;
-  background-color: #fff;
+  padding: 10px;
+  background-color: #e5edff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 26px;
   font-weight: bold;
   margin: 0;
   color: #333;
@@ -34,7 +33,7 @@ h2 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 22px;
   font-weight: normal;
   margin: 0px 0;
   color: #666;

@@ -14,7 +14,7 @@ function ImageCarousel() {
         interval={3500}
         showStatus={false}
         showThumbs={false}
-        transitionTime={1000} /* Tiempo de transición en milisegundos */
+        transitionTime={1000}
       >
         <div className={styles.cardContainer}>
           <Card image={imagen1} title="Conquistadores del Reino" description="Ministerio Infantil"/>

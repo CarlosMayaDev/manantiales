@@ -26,14 +26,17 @@ const Landing = () => {
             </Link>
           </div>
         </div>
-      <div className={styles.div1}>
+      <div className={styles.ministeriosContainer}>
         <h1 className={styles.h7}>Nuestros ministerios</h1>
+        <p className={styles.p}>
+          Explora los diversos ministerios que ofrecemos, <br />cada uno diseñado para fortalecer tu fe y conectar contigo en tu viaje espiritual.
+        </p>
       </div>
       <div className={styles.imageCarouselWithMargin}>
           <ImageCarousel />
       </div>
       <div className={styles.redesContainer}>
-        <h1 className={styles.h7}>Encuéntranos en redes!</h1>
+        <h1 className={styles.h7}>Encuéntranos en Instagram!</h1>
       </div>
       <div id="feed-container">
         <InstagramFeed />

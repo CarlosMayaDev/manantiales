@@ -41,12 +41,21 @@ video {
     background-color: rgba(96, 114, 217, 0.9); /* Fondo del texto con opacidad */
 }
 
-.div1 {
+.ministeriosContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #000000; 
+    text-align: center;
 }
 
 .redesContainer {
@@ -154,4 +163,3 @@ video {
     text-decoration: none; 
 }
 
-  
