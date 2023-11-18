@@ -1,3 +1,31 @@
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden; /* Asegura que el pseudoelemento no salga del contenedor */
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex; /* Activa el modelo de caja flexible */
+    flex-direction: column; /* Apila los elementos hijos verticalmente */
+    justify-content: center; /* Centra verticalmente los elementos hijos */
+    align-items: center; /* Centra horizontalmente los elementos hijos */
+}
+
+.imageContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/326363539_890515505428918_5757183746271280915_n.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 25%;
+    z-index: -1;
+    transform: scale(1.2);
+}
+
+
 img {
     width: 600px;
     height: auto;

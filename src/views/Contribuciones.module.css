@@ -17,10 +17,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../assets/332320709_929341091427566_3086844240419480818_n.jpg');
+    background-image: url('../assets/332213114_1255162972014085_8459134046311574829_n.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 30%;
+    background-position-y: 70%;
     z-index: -1;
 }
 
@@ -40,19 +40,4 @@
     color: #fff;
     text-align: center;
     position: relative;
-}
-
-.h3 {
-    font-size: 32px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #000000;
-}
-
-.h4 {
-    font-size: 28px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    color: #000000;
-    text-align: justify;
 }
