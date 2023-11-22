@@ -21,7 +21,7 @@ video {
 /* Estilos para el contenedor de texto */
 .textContainer {
     margin-top: 100px;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@ video {
     color: #fff; 
     background-size: cover;
     background-position: center;
-    padding: 100px;
+    padding: 50px;
     border-radius: 30px;
     background-color: rgba(96, 114, 217, 0.9); /* Fondo del texto con opacidad */
 }
@@ -94,17 +94,19 @@ video {
 }
 
 .imageCarouselWithMargin {
-    margin-right: 600px; /* Margen derecho de 300px */
-    margin-left: 600px; /* Margen derecho de 300px */
+    margin-right: 400px; /* Margen derecho de 300px */
+    margin-left: 400px; /* Margen derecho de 300px */
     background-color: #aac6ff;
     border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .nuevoMiembro {
     flex-direction: column;
     justify-content: center;
-    margin-right: 600px; /* Margen derecho de 300px */
-    margin-left: 600px; /* Margen derecho de 300px */
+    margin-right: 400px; /* Margen derecho de 300px */
+    margin-left: 400px; /* Margen derecho de 300px */
     margin-top: 100px;
     text-align: center;
   }
