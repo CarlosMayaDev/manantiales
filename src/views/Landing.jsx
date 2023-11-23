@@ -2,7 +2,6 @@ import React from "react";
 import ImageCarousel from "../components/Carousel";
 import styles from "./Landing.module.css";
 import videoLanding from "../assets/videoLanding.MP4";
-import imagen1 from "../assets/IMG_1214 22.jpg";
 import { Link, NavLink } from 'react-router-dom';
 import InstagramFeed from "../components/InstagramFeed";
 import Donaciones from "../components/Donaciones";
@@ -49,15 +48,23 @@ const Landing = () => {
         <h3 className={styles.h3Bien} >Estoy buscando conocer mejor a Jesús.</h3>
         </Link>
       </div>
+      <div className={styles.versiculoContainer}>
+        <p className={styles.p2}>¡Mirad cuán bueno y cuán delicioso es habitar los hermanos juntos en armonía!</p>
+        <p className={styles.p2}>Salmos 133:1</p>
+      </div>
       <div className={styles.formacionContainer}>
         <h1 className={styles.h7Form}>Únete a nuestras escuelas de formación</h1>
-          <h3 className={styles.h8Form}> <NavLink to="/formacion" className={styles.enlaceFormacion}>Discipulado</NavLink>
-    <br />
-    <NavLink to="/formacion" className={styles.enlaceFormacion}>Transforma</NavLink>
-    <br />
-    <NavLink to="/formacion" className={styles.enlaceFormacion}>Avanza</NavLink>
-    <br />
-    <NavLink to="/formacion" className={styles.enlaceFormacion}>EnamorARTE</NavLink></h3>
+          <h3 className={styles.h8Form}> 
+            <p className={styles.p3}>
+            Cada una de nuestras escuelas está diseñada para brindarte herramientas prácticas y enseñanzas profundas que te guiarán en tu crecimiento espiritual. 
+            </p>
+            <NavLink to="/formacion" className={styles.enlaceFormacion}>Discipulado</NavLink>
+            <br />
+            <NavLink to="/formacion" className={styles.enlaceFormacion}>Transforma</NavLink>
+            <br />
+            <NavLink to="/formacion" className={styles.enlaceFormacion}>Avanza</NavLink>
+            <br />
+            <NavLink to="/formacion" className={styles.enlaceFormacion}>EnamorARTE</NavLink></h3>
       </div>
       <Donaciones />
     </div>
