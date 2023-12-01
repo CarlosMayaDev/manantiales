@@ -1,7 +1,7 @@
 import React from "react";
 import ImageCarousel from "../components/Carousel";
 import styles from "./Landing.module.css";
-import videoLanding from "../assets/videoLanding.MP4";
+import videoLanding from "../assets/My project 2.MP4";
 import { Link, NavLink } from 'react-router-dom';
 import InstagramFeed from "../components/InstagramFeed";
 import Donaciones from "../components/Donaciones";
@@ -13,7 +13,11 @@ const Landing = () => {
       <div className={styles.videoContainer}>
         <video src={videoLanding} autoPlay loop muted />
       </div>
-        <div className={styles.textContainer}>
+      <div className={styles.versiculoContainer}>
+          <p className={styles.p2}>¡Mirad cuán bueno y cuán delicioso es habitar los hermanos juntos en armonía!</p>
+          <p className={styles.p2}>Salmos 133:1</p>
+      </div>
+        {/* <div className={styles.textContainer}>
           <div className={styles.bienvenidos}>
             <h1 className={styles.h1}>¡Manantiales de Amor y Poder!</h1>
             <h3 className={styles.h3}>Les damos la más cordial bienvenida a nuestro espacio virtual, un rincón dedicado al encuentro, la inspiración y el crecimiento espiritual.</h3>
@@ -24,7 +28,7 @@ const Landing = () => {
               </h5>
             </Link>
           </div>
-        </div>
+        </div> */}
       <div className={styles.ministeriosContainer}>
         <h1 className={styles.h7}>Nuestros ministerios</h1>
         <p className={styles.p}>
@@ -47,10 +51,6 @@ const Landing = () => {
         <Link to="/contactenos">
         <h3 className={styles.h3Bien} >Estoy buscando conocer mejor a Jesús.</h3>
         </Link>
-      </div>
-      <div className={styles.versiculoContainer}>
-        <p className={styles.p2}>¡Mirad cuán bueno y cuán delicioso es habitar los hermanos juntos en armonía!</p>
-        <p className={styles.p2}>Salmos 133:1</p>
       </div>
       <div className={styles.formacionContainer}>
         <h1 className={styles.h7Form}>Únete a nuestras escuelas de formación</h1>

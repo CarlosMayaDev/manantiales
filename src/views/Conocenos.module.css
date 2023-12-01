@@ -87,6 +87,8 @@
     width: 550px;
     height: auto;
     transition: transform 0.3s ease;
+    border-radius: 20%;
+    border: 30px solid #c6e8ff
 }
 
 .evangelizarContainer:hover img {
