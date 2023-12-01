@@ -47,6 +47,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #000000;
+    text-align: center;
 }
 
 .h4 {
@@ -98,50 +99,72 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(116, 164, 236, 0.463);
     margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 600px;
-    margin-right: 600px;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 30px;
 }
 
 .h7 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bold;
     color: #000000;
 }
 
 .p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: normal;
     color: #000000; 
     text-align: center;
 }
 
-.evangelizarContainer {
+.ministeriosDescripcionContainer {
     display: flex;
     align-items: center;
     gap: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin-right: 520px;
+    margin-left: 520px;
+    background-color: aliceblue;
+    padding-left: 80px;
 }
 
-.evangelizarContainer {
+.ministeriosDescripcionContainer {
     position: relative;
     overflow: hidden;
 }
 
-.evangelizarContainer img {
-    width: 550px;
-    height: auto;
-    transition: transform 0.3s ease;
-    border-radius: 20%;
-    border: 30px solid #c6e8ff
+.ministeriosDescripcionContainer img {
+    width: 700px;
+    border: 15px solid rgba(116, 164, 236, 0.463);
+    border-radius: 10px;
 }
 
-.evangelizarContainer:hover img {
-    transform: scale(1.2);
+.ministeriosDescripcionContainer2 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 520px;
+    margin-left: 520px;
+    background-color: aliceblue;
+    padding-right: 80px;
 }
+
+.ministeriosDescripcionContainer2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.ministeriosDescripcionContainer2 img {
+    width: 700px;
+    border: 15px solid rgba(116, 164, 236, 0.463);
+    border-radius: 10px;
+}
+
+
