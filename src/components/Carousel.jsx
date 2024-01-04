@@ -4,6 +4,10 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import imagen1 from "../assets/ADORACION1.jpeg";
 import imagen2 from "../assets/2TO5NDkdQVAq63fc8XWeo0nyHhbHfrdhWUpN3YLnjCg=_plaintext_638363737807369320.jpg";
 import imagen3 from "../assets/LOGOCONQUISTADORES.PNG";
+import imagen4 from "../assets/STAFF2.png";
+import imagen5 from "../assets/MULTIMEDIA2.jpg";
+
+
 import Card from './Card';
 import styles from "./Carousel.module.css";
 
@@ -23,9 +27,9 @@ function ImageCarousel() {
           <Card image={imagen1} title="Adoración" description="Ministerio de Adoración"/>
         </div>
         <div className={styles.cardContainer}>
-          <Card image={imagen2} title="Staff" description="Diaconado"/>
+          <Card image={imagen4} title="Staff" description="Diaconado"/>
           <Card image={imagen2} title="Red de Intercesores" description="descripcion"/>
-          <Card image={imagen2} title="Multimedia" description="descripcion"/>
+          <Card image={imagen5} title="Multimedia" description="descripcion"/>
         </div>
       </Carousel>
     </div>
