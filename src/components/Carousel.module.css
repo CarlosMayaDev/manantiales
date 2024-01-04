@@ -4,9 +4,8 @@
     justify-content: space-between;
     width: 100%; /* Asegura que las tarjetas ocupen el 100% del ancho disponible */
     max-width: 1200px; /* Establece un ancho máximo para evitar que se estiren demasiado en pantallas grandes */
-    margin: 70px; /* Centra horizontalmente las tarjetas en el contenedor */
-    margin-top: 0px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-bottom: 70px;
   }
   

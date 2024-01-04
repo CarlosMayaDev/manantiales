@@ -1,28 +1,24 @@
-.card {
-  width: 200px;
-  height: 450px;
+.cardContainer {
+  width: 250px;
+  height: 500px;
   border-radius: 30px;
   transition: transform 0.2s;
-  margin: 15px 0px; /* Espacio uniforme entre las cartas */
-  flex: 0 0 calc(33.33% - 40px); /* Distribuye igualmente el espacio para tres cartas */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.card:hover {
-  transform: scale(1.07);
+.cardContainer:hover {
+  transform: scale(1.08);
 }
 .backgroundImage {
-  width: 370px;
-  height: 370px;
+  width: 430px;
+  height: 430px;
   background-size: cover; /* O ajusta según tus necesidades */
   border-radius: 15px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end; /* Alinea el contenido en la parte inferior */
 }
 
-
 .content {
-  padding: 5px;
   background-color: #e5edff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;

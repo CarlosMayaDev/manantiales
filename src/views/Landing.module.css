@@ -94,13 +94,10 @@ video {
 }
 
 .imageCarouselWithMargin {
-    margin-right: 300px; /* Margen derecho de 300px */
-    margin-left: 300px; /* Margen derecho de 300px */
+    margin-right: 200px; /* Margen derecho de 300px */
+    margin-left: 200px; /* Margen derecho de 300px */
     background-color: #aac6ff;
     border-radius: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
   }
 
   .nuevoMiembro {

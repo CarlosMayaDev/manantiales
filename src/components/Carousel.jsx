@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import imagen1 from "../assets/273541995_5604577989571712_5890615490078742919_n.jpg";
+import imagen1 from "../assets/ADORACION1.jpeg";
 import imagen2 from "../assets/2TO5NDkdQVAq63fc8XWeo0nyHhbHfrdhWUpN3YLnjCg=_plaintext_638363737807369320.jpg";
 import imagen3 from "../assets/LOGOCONQUISTADORES.PNG";
 import Card from './Card';
@@ -12,10 +12,10 @@ function ImageCarousel() {
     <div>
       <Carousel
         autoPlay={true}
-        interval={3500}
+        interval={6000}
         showStatus={false}
         showThumbs={false}
-        transitionTime={3500}
+        transitionTime={800}
       >
         <div className={styles.cardContainer}>
           <Card image={imagen3} title="Conquistadores del Reino" description="Ministerio Infantil"/>
