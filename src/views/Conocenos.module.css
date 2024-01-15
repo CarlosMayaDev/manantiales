@@ -74,8 +74,8 @@
     gap: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin-right: 350px;
+    margin-left: 350px;
 }
 
 .evangelizarContainer {
@@ -135,13 +135,10 @@
 }
 
 .empoderandoTexto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 

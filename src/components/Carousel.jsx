@@ -6,6 +6,7 @@ import imagen2 from "../assets/2TO5NDkdQVAq63fc8XWeo0nyHhbHfrdhWUpN3YLnjCg=_plai
 import imagen3 from "../assets/LOGOCONQUISTADORES.PNG";
 import imagen4 from "../assets/STAFF2.png";
 import imagen5 from "../assets/MULTIMEDIA2.jpg";
+import imagen6 from "../assets/INTERCESORES.jpeg";
 
 
 import Card from './Card';
@@ -24,12 +25,12 @@ function ImageCarousel() {
         <div className={styles.cardContainer}>
           <Card image={imagen3} title="Conquistadores del Reino" description="Ministerio Infantil"/>
           <Card image={imagen2} title="ManantialEs Familia" description="Ministerio Juvenil"/>
-          <Card image={imagen1} title="Adoración" description="Ministerio de Adoración"/>
+          <Card image={imagen1} title="Identidad Worship" description="Ministerio de Adoración"/>
         </div>
         <div className={styles.cardContainer}>
           <Card image={imagen4} title="Staff" description="Diaconado"/>
-          <Card image={imagen2} title="Red de Intercesores" description="descripcion"/>
-          <Card image={imagen5} title="Multimedia" description="descripcion"/>
+          <Card image={imagen6} title="Red de Intercesores" description="Red de Intercesores"/>
+          <Card image={imagen5} title="Multimedia" description="Multimedia"/>
         </div>
       </Carousel>
     </div>

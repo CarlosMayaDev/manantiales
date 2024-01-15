@@ -23,7 +23,7 @@ const Conocenos = () => {
 
             <div className={styles.empoderandoTexto}>
                 <p className={styles.h4}>
-                Siguiendo la enseñanza de Jesús, tal como se expresa en Marcos 16:15, la Comunidad de Manantiales de Amor y Poder, como parte activa del cuerpo de Cristo, se embarca con entusiasmo en la misión de la Gran Comisión. Nos esforzamos por impulsar cambios significativos en las familias, buscando crear una sociedad fundamentada en principios y valores inspirados en la sabiduría de la Palabra de Dios. ¡Somos agentes de transformación con un propósito claro y relevante!
+                Siguiendo la enseñanza de Jesús, tal como se expresa en Marcos 16:15, la Comunidad de Manantiales de Amor y Poder, como parte activa del cuerpo de Cristo, se embarca con entusiasmo en la misión de la Gran Comisión. <br /><br />Nos esforzamos por impulsar cambios significativos en las familias, buscando crear una sociedad fundamentada en principios y valores inspirados en la sabiduría de la Palabra de Dios. ¡Somos agentes de transformación con un propósito claro y relevante!
                 </p>            
             </div>
             
