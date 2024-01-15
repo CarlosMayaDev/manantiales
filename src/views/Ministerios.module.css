@@ -40,6 +40,8 @@
     color: #fff;
     text-align: center;
     position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .h3 {
@@ -101,8 +103,8 @@
     align-items: center;
     background-color: rgba(116, 164, 236, 0.463);
     margin-top: 100px;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 350px;
+    padding-right: 350px;
     padding-bottom: 30px;
 }
 
@@ -127,8 +129,8 @@
     gap: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 520px;
-    margin-left: 520px;
+    margin-right: 220px;
+    margin-left: 220px;
     background-color: aliceblue;
     padding-left: 80px;
 }
@@ -150,8 +152,8 @@
     gap: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 520px;
-    margin-left: 520px;
+    margin-right: 220px;
+    margin-left: 220px;
     background-color: aliceblue;
     padding-right: 80px;
 }

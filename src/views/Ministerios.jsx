@@ -7,7 +7,8 @@ const Ministerios = () => {
         <>
             <div className={styles.imageContainer}>
                 <h1 className={styles.h1}>MINISTERIOS</h1>
-                <h2 className={styles.h2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br />Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</h2>
+                <h2 className={styles.h2}>Descubre los diversos ministerios que forman parte de nuestra comunidad. Cada uno tiene como objetivo fortalecer la fe, crecimiento espiritual y contribuir al bienestar de todos. <br />¡Únete y participa!
+</h2>
             </div>
             <div className={styles.empoderandoContainer}>
                 <h5 className={styles.h5}>Cada uno según el don que ha recibido, minístrelo a los otros, como buenos administradores de la multiforme gracia de Dios. <br />1 Pedro 4:10</h5>
