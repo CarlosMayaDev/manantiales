@@ -76,7 +76,9 @@ const Ministerios = () => {
             <img src={imagenStaff} alt="FotoStaff" />
                 <div>
                     <h3 className={styles.h3}>Que buscamos?</h3>
-                    <p className={styles.p}>Buscamos ser un canal tangible del amor de Cristo al satisfacer las necesidades prácticas de la congregación. <br />Esto incluye brindar apoyo a los miembros en momentos de dificultad, coordinar actividades de servicio comunitario y asegurarse de que todos se sientan bienvenidos y cuidados en la iglesia. <br />Además, buscamos inspirar a otros a participar activamente en el servicio y fomentar un ambiente de comunidad y apoyo mutuo.</p>
+                    <p className={styles.p}>
+                        Buscamos ser un canal tangible del amor de Cristo al satisfacer las necesidades prácticas de la congregación. <br />Esto incluye brindar apoyo a los miembros en momentos de dificultad, coordinar actividades de servicio comunitario y asegurarse de que todos se sientan bienvenidos y cuidados en la iglesia. <br />Además, buscamos inspirar a otros a participar activamente en el servicio y fomentar un ambiente de comunidad y apoyo mutuo.
+                        </p>
                 </div>
             </div>
 

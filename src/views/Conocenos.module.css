@@ -3,7 +3,7 @@
     width: 100%;
     height: 700px;
     overflow: hidden; /* Asegura que el pseudoelemento no salga del contenedor */
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex; /* Activa el modelo de caja flexible */
     flex-direction: column; /* Apila los elementos hijos verticalmente */
     justify-content: center; /* Centra verticalmente los elementos hijos */
@@ -74,8 +74,8 @@
     gap: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-right: 350px;
-    margin-left: 350px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .evangelizarContainer {
@@ -84,7 +84,7 @@
 }
 
 .evangelizarContainer img {
-    width: 550px;
+    width: 650px;
     height: auto;
     transition: transform 0.3s ease;
     border-radius: 20%;
