@@ -5,7 +5,7 @@ const Formacion = () => {
     return (
         <>
             <div className={styles.imageContainer}>
-                <h1 className={styles.h1}>FORMACIÓN</h1>
+                <h1 className={styles.h1}>ESCUELAS DE FORMACIÓN Y CRECIMIENTO</h1>
                     <h2 className={styles.h2}>
                         Descubre nuestras escuelas y programas de formación 
                     </h2>        
