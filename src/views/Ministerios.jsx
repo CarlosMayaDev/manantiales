@@ -22,14 +22,13 @@ const Ministerios = () => {
             <div className={styles.ministeriosContainer}>
                  <h1 className={styles.h7}>Ministerio Infantil – Conquistadores del Reino</h1>
                 <p className={styles.p}>
-                El ministerio infantil Conquistadores del Reino, tiene cómo finalidad formar niños que se instruyen en el temor a Dios y los principios de su palabra. <br />Niños que crecen en gracia y sabiduría; que conocen y comparten las buenas nuevas, y caminan  afirmando el propósito de Dios en sus vidas apasionándose por el servicio y entrega de lo mejor al Señor.
-                </p>
+                El Ministerio Infantil "Conquistadores del Reino" busca formar niños en el temor a Dios y los principios bíblicos. Su objetivo es que los niños crezcan en gracia y sabiduría, conozcan y compartan las buenas nuevas, y se comprometan en afirmar el propósito de Dios en sus vidas.</p>
             </div>
             <div className={styles.ministeriosDescripcionContainer}>
                 <div>
                     <h3 className={styles.h3}>Que buscamos?</h3>
-                <p className={styles.p}>Nuestro anhelo es que cada niño que participe en nuestro ministerio reconozca su necesidad de Jesús como Redentor. <br />Esto se logra al concientizar sobre el pecado que nos aleja de Dios y al destacar el propósito perfecto que Dios tiene para cada uno de ellos. <br />A medida que los niños crecen en el ministerio, proporcionamos un acompañamiento personalizado para atender sus diferentes necesidades.
-</p>
+                <p className={styles.p}>
+                El objetivo de nuestro ministerio infantil es que cada niño reconozca a Jesús como su Redentor, tomando conciencia del pecado que los aleja de Dios y comprendiendo el propósito perfecto que Dios tiene para cada uno de ellos. <br />A medida que los niños crecen en el ministerio, brindamos un acompañamiento personalizado para atender sus diversas necesidades.</p>
                 </div>
                 <img src={imagenInfantil} alt="FotoInfantil" />
             </div>
@@ -60,7 +59,7 @@ const Ministerios = () => {
             <div className={styles.ministeriosDescripcionContainer}>
                 <div>
                     <h3 className={styles.h3}>Que buscamos?</h3>
-                    <p className={styles.p}>Buscamos que cada persona que se une a IDENTIDAD WORSHIP pueda experimentar una profunda conexión espiritual a través de la música. Queremos que reconozcan la importancia de Jesús como Redentor y se sumerjan en la adoración, llevando el mensaje de salvación y amor a través de cada acorde y melodía.
+                    <p className={styles.p}>Buscamos que cada persona que se une a IDENTIDAD WORSHIP pueda experimentar una profunda conexión espiritual a través de la música. <br />Queremos que reconozcan la importancia de Jesús como Redentor y se sumerjan en la adoración, llevando el mensaje de salvación y amor a través de cada acorde y melodía.
 </p>
                 </div>
                 <img src={imagenAdoracion} alt="FotoAdoracion" />
