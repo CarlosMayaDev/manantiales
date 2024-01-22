@@ -3,6 +3,7 @@ import React from "react";
 import image1 from "../assets/Escuelas de Formacion Collage.png"
 import image2 from "../assets/Escuela EnAmorArte.png"
 import image3 from "../assets/Avanza.png"
+import image4 from "../assets/Transforma.png"
 
 import styles from "./Formacion.module.css"
 
@@ -34,15 +35,27 @@ const Formacion = () => {
             </div>
 
             <div className={styles.avanzaContainer}>
-            <div className={styles.avanzaText}>
-                    <h1 className={styles.h1}>
-                        ESCUELA AVANZA
-                    </h1>
-                    <h2 className={styles.h2}>
-                    Es una escuela de sanidad interior y liberación, enfocada en la formación del carácter y en el conocimiento de la palabra de Dios. Los temas son una secuencia ordenada que reafirma nuestra identidad en el mundo y la iglesia.
-                    </h2>
+                <div className={styles.avanzaText}>
+                        <h1 className={styles.h1}>
+                            ESCUELA AVANZA
+                        </h1>
+                        <h2 className={styles.h2}>
+                        Es una escuela de sanidad interior y liberación, enfocada en la formación del carácter y en el conocimiento de la palabra de Dios. Los temas son una secuencia ordenada que reafirma nuestra identidad en el mundo y la iglesia.
+                        </h2>
                 </div>
                 <img src={image3} alt="" className={styles.avanzaImage} />
+            </div>
+
+            <div className={styles.transformaContainer}>
+                <div className={styles.transformaText}>
+                        <h1 className={styles.h1}>
+                            TRANSFORMA
+                        </h1>
+                    <h2 className={styles.h2}>
+                    Es una escuela para formación de líderes enfocada en desarrollar la vocación que cada persona tiene, llevándolos a descubrir su potencial y como aplicarlo a su vida personal, ministerial y en la extensión del Reino de Dios.
+                    </h2>
+                </div>
+                <img src={image4} alt="" className={styles.transformaImage} />
             </div>
         </>
         )
