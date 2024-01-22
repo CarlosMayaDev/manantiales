@@ -5,7 +5,7 @@ import imagenEvangelizar from "../assets/97NmG-uEEaeP42qtLSrGid8gB972nlIc9BufKXi
 import imagenAdoracion from "../assets/ADORACION1.jpeg";
 import imagenStaff from "../assets/STAFF2.png";
 import imagenMultimedia from "../assets/MULTIMEDIA3.jpg";
-
+import imagenCollage from "../assets/MinisteriosCollage.png";
 
 const Ministerios = () => {
     return (
@@ -13,12 +13,12 @@ const Ministerios = () => {
             <div className={styles.imageContainer}>
                 <h1 className={styles.h1}>MINISTERIOS</h1>
                 <h2 className={styles.h2}>Descubre los diversos ministerios que forman parte de nuestra comunidad. Cada uno tiene como objetivo fortalecer la fe, crecimiento espiritual y contribuir al bienestar de todos. <br />¡Únete y participa!
-</h2>
-            </div>
-            <div className={styles.empoderandoContainer}>
-                <h5 className={styles.h5}>Cada uno según el don que ha recibido, minístrelo a los otros, como buenos administradores de la multiforme gracia de Dios. <br />1 Pedro 4:10</h5>
+                </h2>
             </div>
 
+            <div className={styles.collageContainer}>
+                <img src={imagenCollage} alt=""className={styles.collageImage}/>
+            </div>
             <div className={styles.ministeriosContainer}>
                  <h1 className={styles.h7}>Ministerio Infantil – Conquistadores del Reino</h1>
                 <p className={styles.p}>
@@ -33,7 +33,6 @@ const Ministerios = () => {
                 <img src={imagenInfantil} alt="FotoInfantil" />
             </div>
 
-        
             <div className={styles.ministeriosContainer}>
                  <h1 className={styles.h7}>Eje adolescentes – ManantialEs Familia</h1>
                 <p className={styles.p}>
@@ -60,11 +59,14 @@ const Ministerios = () => {
                 <div>
                     <h3 className={styles.h3}>Que buscamos?</h3>
                     <p className={styles.p}>Buscamos que cada persona que se une a IDENTIDAD WORSHIP pueda experimentar una profunda conexión espiritual a través de la música. <br />Queremos que reconozcan la importancia de Jesús como Redentor y se sumerjan en la adoración, llevando el mensaje de salvación y amor a través de cada acorde y melodía.
-</p>
+                    </p>
                 </div>
                 <img src={imagenAdoracion} alt="FotoAdoracion" />
             </div>
 
+            <div className={styles.empoderandoContainer}>
+                <h5 className={styles.h5}>Cada uno según el don que ha recibido, minístrelo a los otros, como buenos administradores de la multiforme gracia de Dios. <br />1 Pedro 4:10</h5>
+            </div>
         
             <div className={styles.ministeriosContainer}>
                  <h1 className={styles.h7}>STAFF (Diaconado)</h1>
