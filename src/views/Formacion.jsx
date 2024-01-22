@@ -1,26 +1,36 @@
 import React from "react";
 // import styles from "../views/Formacion.module.css"
-import image from "../assets/Escuelas de Formacion Collage.png"
+import image1 from "../assets/Escuelas de Formacion Collage.png"
+import image2 from "../assets/Escuela EnAmorArte.png"
+
 import styles from "./Formacion.module.css"
 
 const Formacion = () => {
     return (
         <>
 
-        <div>
-            <img src={image} alt="" style={{ width: '100%' }}/>
-        </div>
+            <div>
+                <img src={image1} alt="" style={{ width: '100%' }}/>
+            </div>
+            <div className={styles.formandoContainer}>
+                <h1 className={styles.h1}>
+                    FORMANDO GENERACIONES
+                </h1>
+                <h2 className={styles.h2}>
+                La Escuela de Discipulado "Formando Generaciones" te invita a dar tus primeros pasos en un viaje transformador. 
+                Al decidir abandonar tu antiguo estilo de vida, te ofrecemos una guía sólida para iniciar una nueva vida en Cristo Jesús. <br /> <br />
+                Nuestro programa no solo incluye el bautismo en agua como un acto simbólico de obediencia, sino también el bautismo en el Espíritu Santo, brindándote el poder necesario para superar los desafíos de la vida.
+                </h2>
+            </div>
 
-        <div className={styles.formandoContainer}>
-            <h1 className={styles.h1}>
-                FORMANDO GENERACIONES
-            </h1>
-            <h2 className={styles.h2}>
-            La Escuela de Discipulado "Formando Generaciones" te invita a dar tus primeros pasos en un viaje transformador. 
-            Al decidir abandonar tu antiguo estilo de vida, te ofrecemos una guía sólida para iniciar una nueva vida en Cristo Jesús. <br /> <br />
-            Nuestro programa no solo incluye el bautismo en agua como un acto simbólico de obediencia, sino también el bautismo en el Espíritu Santo, brindándote el poder necesario para superar los desafíos de la vida.
-            </h2>
-        </div>
+            <div className={styles.enamorarteContainer}>
+                <img src={image2} alt="" className={styles.enamorarteImage} />
+                <div className={styles.enamorarteText}>
+                    <h2 className={styles.h2}>
+                    EnAmorArte es una escuela dirigida a padres, madres y cuidadores de nuestros niños y niñas, que tiene como fin mejorar y brindar herramientas para una crianza amorosa y nutrida, mitigando así los índices de violencia contra nuestra niñez por parte de sus cuidadores y formar a nuestras familias en principios bíblicos.
+                    </h2>
+                </div>
+            </div>
         </>
         )
 };
