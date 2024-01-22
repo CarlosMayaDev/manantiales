@@ -85,15 +85,13 @@ const Ministerios = () => {
             <div className={styles.ministeriosContainer}>
                  <h1 className={styles.h7}>Red de Intercesores</h1>
                 <p className={styles.p}>
-                    Somos un equipo de trabajo que busca acompañar al adolescente en su paso hacia la juventud, esto desde una perspectiva bíblica y Cristo céntrica. <br />
-                    El equipo focaliza sus esfuerzos en generar un ambiente de confianza, seguridad, crecimiento y amor: Una familia en la cual el adolescente puede aprender junto a otros que estan pasando por esta etapa.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis mi, a feugiat mauris accumsan vel. Integer tristique mi nec orci convallis, quis ultrices libero suscipit. Phasellus sit amet sodales dolor. Suspendisse potenti. Integer vestibulum nulla vel orci hendrerit, a fermentum ligula scelerisque. Nullam suscipit vel nisl sit amet luctus.
                 </p>
             </div>
             <div className={styles.ministeriosDescripcionContainer}>
                 <div>
                     <h3 className={styles.h3}>Que buscamos?</h3>
-                    <p className={styles.p}>Que cada asistente reconozca su necesidad de Jesús como redentor, esto al concientizar del pecado que les ha alejado de Dios y del propósito perfecto que tiene para cada uno. <br /><br />
-                    A medida que el adolescente crece en el ministerio realizamos acompañamiento personalizado en las diferentes necesidades que cada uno tiene.</p>
+                    <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis mi, a feugiat mauris accumsan vel. Integer tristique mi nec orci convallis, quis ultrices libero suscipit. Phasellus sit amet sodales dolor. Suspendisse potenti. Integer vestibulum nulla vel orci hendrerit, a fermentum ligula scelerisque. Nullam suscipit vel nisl sit amet luctus.</p>
                 </div>
                 <img src={imagenEvangelizar} alt="FotoEvangelizar" />
             </div>

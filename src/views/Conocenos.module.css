@@ -18,9 +18,9 @@
     width: 100%;
     height: 100%;
     background-image: url('../assets/IMG_1124\ 2.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     z-index: -1;
 }
 
