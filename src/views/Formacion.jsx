@@ -2,6 +2,7 @@ import React from "react";
 // import styles from "../views/Formacion.module.css"
 import image1 from "../assets/Escuelas de Formacion Collage.png"
 import image2 from "../assets/Escuela EnAmorArte.png"
+import image3 from "../assets/Avanza.png"
 
 import styles from "./Formacion.module.css"
 
@@ -30,6 +31,18 @@ const Formacion = () => {
                     EnAmorArte es una escuela dirigida a padres, madres y cuidadores de nuestros niños y niñas, que tiene como fin mejorar y brindar herramientas para una crianza amorosa y nutrida, mitigando así los índices de violencia contra nuestra niñez por parte de sus cuidadores y formar a nuestras familias en principios bíblicos.
                     </h2>
                 </div>
+            </div>
+
+            <div className={styles.avanzaContainer}>
+            <div className={styles.avanzaText}>
+                    <h1 className={styles.h1}>
+                        ESCUELA AVANZA
+                    </h1>
+                    <h2 className={styles.h2}>
+                    Es una escuela de sanidad interior y liberación, enfocada en la formación del carácter y en el conocimiento de la palabra de Dios. Los temas son una secuencia ordenada que reafirma nuestra identidad en el mundo y la iglesia.
+                    </h2>
+                </div>
+                <img src={image3} alt="" className={styles.avanzaImage} />
             </div>
         </>
         )

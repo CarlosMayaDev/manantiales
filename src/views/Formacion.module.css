@@ -10,6 +10,12 @@
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.formandoContainer:hover {
+    transform: scale(1.12); 
 }
 
 .enamorarteContainer {
@@ -22,16 +28,53 @@
   
   .enamorarteImage {
     width: 50%; /* o el porcentaje que desees */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   }
   
   .enamorarteText {
-    padding-left: 20px; /* o el espacio que desees entre la imagen y el texto */
+    padding-left: 30px; /* o el espacio que desees entre la imagen y el texto */
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+
+  .avanzaContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  
+  .avanzaImage {
+    width: 55%; /* o el porcentaje que desees */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .avanzaText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #bdd0e4ea;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.avanzaText:hover {
+    transform: scale(1.15); 
+}
 
 .h1 {
     font-size: 58px;
@@ -46,5 +89,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     color: #272b2f;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #bdd0e4;
     text-align: center;
 }
