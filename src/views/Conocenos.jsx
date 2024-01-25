@@ -12,8 +12,6 @@ const Conocenos = () => {
                 <h1 className={styles.h1}>MANANTIALES DE AMOR Y PODER</h1>
                 <h2 className={styles.h2}>Bienvenido a Manantiales de Amor y Poder, un espacio dedicado a nutrir el alma y fortalecer la fe. Nos esforzamos por ser una comunidad comprometida con el amor, la enseñanza de la Palabra de Dios y el crecimiento espiritual.
                     <br /><br />
-                    En este rincón virtual, explorarás aguas revitalizantes que inspirarán y guiarán tu viaje espiritual. Estamos aquí para celebrar contigo, compartir la sabiduría divina y construir juntos una comunidad llena de amor y poder.
-                    <br /><br />
                     ¡Únete a nosotros en este emocionante viaje y descubre la maravilla de caminar junto a Manantiales de Amor y Poder!</h2>
             </div>
 
