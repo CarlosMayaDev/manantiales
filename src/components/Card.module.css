@@ -1,18 +1,18 @@
 .cardContainer {
-  width: 250px;
-  height: 500px;
+  width: 300px;
   border-radius: 30px;
   transition: transform 0.2s;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: -160px;
 }
 .cardContainer:hover {
   transform: scale(1.08);
 }
 .backgroundImage {
-  width: 430px;
-  height: 430px;
+  width: 500px;
+  height: 500px;
   background-size: cover; /* O ajusta según tus necesidades */
   border-radius: 15px;
   display: flex;

@@ -8,14 +8,14 @@ function Card({ image, title, description }) {
   };
     return (
       <>
-        <div className={styles.cardContainer}>
-        <NavLink to="/ministerios" style={{ textDecoration: 'none' }}>
-        <div className={`${styles.backgroundImage}`} style={cardStyle}></div>
-            <div className={styles.content}>
-              <h2 className={styles.h2}>{title}</h2>
-              <p className={styles.p}>{description}</p>
-            </div>
-            </NavLink>
+        <div className={styles.cardContainer} >
+          <NavLink to="/ministerios" style={{ textDecoration: 'none' }}>
+          <div className={`${styles.backgroundImage}`} style={cardStyle}></div>
+              <div className={styles.content}>
+                <h2 className={styles.h2}>{title}</h2>
+                <p className={styles.p}>{description}</p>
+              </div>
+          </NavLink>
         </div>
       </>
     );

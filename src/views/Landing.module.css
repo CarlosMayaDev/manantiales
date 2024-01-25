@@ -94,8 +94,8 @@ video {
 }
 
 .imageCarouselWithMargin {
-    margin-right: 200px; /* Margen derecho de 300px */
-    margin-left: 200px; /* Margen derecho de 300px */
+    margin-right: 110px; /* Margen derecho de 300px */
+    margin-left: 110px; /* Margen derecho de 300px */
     background-color: #aac6ff;
     border-radius: 30px;
   }
@@ -103,8 +103,8 @@ video {
   .nuevoMiembro {
     flex-direction: column;
     justify-content: center;
-    margin-right: 400px; /* Margen derecho de 300px */
-    margin-left: 400px; /* Margen derecho de 300px */
+    margin-right: 300px; /* Margen derecho de 300px */
+    margin-left: 300px; /* Margen derecho de 300px */
     margin-top: 100px;
     text-align: center;
   }
