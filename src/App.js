@@ -10,7 +10,7 @@ import Contribuciones from './views/Contribuciones';
 import Equipo from './views/Equipo';
 import Formacion from './views/Formacion';
 import Ministerios from './views/Ministerios';
-import Palabra from './views/Palabra';
+// import Palabra from './views/Palabra';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path="/equipo" element={<Equipo />} />
         <Route path="/formacion" element={<Formacion />} />
         <Route path="/ministerios" element={<Ministerios />} />
-        <Route path="/palabra" element={<Palabra />} />
+        {/* <Route path="/palabra" element={<Palabra />} /> */}
       </Routes>
       <Footer />
     </Router>

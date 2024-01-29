@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
-
 const Footer = () => {
     return (
         <footer className={styles.footer}>
@@ -23,11 +22,11 @@ const Footer = () => {
                     DONACIONES
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to={"/palabra"} className={styles.p}>
                     PALABRA
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to={"/contactenos"} className={styles.p}>
                     CONTACTENOS

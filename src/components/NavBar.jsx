@@ -57,11 +57,11 @@ const NavBar = () => {
                     <h3>DONACIONES</h3>
                     </NavLink>
                 </li>
-                <li>
+                {/* <li>
                     <NavLink to={"/palabra"} className={styles.text}>
                     <h3>PALABRA</h3>
                     </NavLink>
-                </li>
+                </li> */}
                 <li>
                     <NavLink to={"/contactenos"} className={styles.text}>
                     <h3>CONTACTENOS</h3>
