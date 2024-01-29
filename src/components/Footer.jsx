@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink} from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 
@@ -20,7 +20,7 @@ const Footer = () => {
                 </li>
                 <li>
                     <Link to={"/contribuciones"} className={styles.p}>
-                    CONTRIBUCIONES
+                    DONACIONES
                     </Link>
                 </li>
                 <li>

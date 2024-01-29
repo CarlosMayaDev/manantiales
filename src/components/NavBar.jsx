@@ -54,7 +54,7 @@ const NavBar = () => {
 
                 <li>
                     <NavLink to={"/contribuciones"} className={styles.text}>
-                    <h3>CONTRIBUCIONES</h3>
+                    <h3>DONACIONES</h3>
                     </NavLink>
                 </li>
                 <li>
