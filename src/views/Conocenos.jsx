@@ -4,6 +4,8 @@ import imagenEvangelizar from "../assets/378317721_630360289263064_4111713357532
 import imagenAfirmar from "../assets/299980236_6156034497759389_2543737134630714748_n.jpg"
 import imagenDiscipular from "../assets/discipular.jpg";
 import imagenEnviar from "../assets/enviar.jpg";
+import collageConocenos from "../assets/ConocenosCollage.png"
+
 
 const Conocenos = () => {
     return (
@@ -18,6 +20,8 @@ const Conocenos = () => {
             <div className={styles.empoderandoContainer}>
                 <h5 className={styles.h5}>EMPODERANDO CAMBIOS POSITIVOS</h5>
             </div>
+
+            <img src={collageConocenos} alt="" style={{ width: '100%', marginTop: '50px' }}/>
 
             <div className={styles.empoderandoTexto}>
                 <p className={styles.h4}>
