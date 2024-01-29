@@ -1,0 +1,93 @@
+.contactanosContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactanosContainerSub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.whatsappContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.whatsappImg {
+    width: 20%;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.correoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 45px;
+}
+
+.correoImg {
+    width: 20%;
+    margin-top: 25px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.logosContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.facebookImg {
+    width: 115px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.instagramImg {
+    width: 115px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.youtubeImg {
+    width: 115px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 62px;
+}
+
+.h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #000000; 
+    text-align: center;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    color: #000000; 
+    text-align: center;
+}
+
+
