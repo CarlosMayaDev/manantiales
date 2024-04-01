@@ -12,10 +12,10 @@ const Contribuciones = () => {
                 </h2>
             </div>
             <div className={styles.donacionContainer}>
-                    <p className={styles.h4}>Realiza tus donaciones en este número via nequi:</p>
+                    <p className={styles.h4}>Realiza tus donaciones en este número vía nequi:</p>
                         <div className={styles.nequiContainer}>
-                            <p className={styles.h3}>3005011257</p>
-                            <img src={nequiImagen} alt="" style={{ width: '80%'}}/>
+                            <p className={styles.h3}>300 501 1257</p>
+                            <img src={nequiImagen} alt="" style={{ width: '35%'}}/>
                         </div>
             </div>
         </>
