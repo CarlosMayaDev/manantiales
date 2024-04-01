@@ -21,6 +21,8 @@ function ImageCarousel() {
         showStatus={false}
         showThumbs={false}
         transitionTime={800}
+        infiniteLoop={true}
+        selectedItem={0}
       >
         <div className={styles.cardContainer}>
           <Card image={imagen3} title="Conquistadores del Reino" description="Ministerio Infantil"/>

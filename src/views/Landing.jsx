@@ -43,7 +43,7 @@ const Landing = () => {
       </div>
 
       <div className={styles.redesContainer}>
-        <h1 className={styles.h7}>Descubre nuestro mundo en Instagram</h1>
+        <h1 className={styles.h7}>Descubre nuestra iglesia en Instagram</h1>
         <p className={styles.p}>Explora momentos inspiradores, eventos emocionantes y más. <br />¡Síguenos para mantenerte conectado!</p>
       </div>
       <div id="feed-container">
