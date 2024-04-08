@@ -49,6 +49,11 @@
     text-align: center;
     position: relative;
     margin-right: 100px;
+    transition: transform 0.3s ease;
+}
+
+.h3:hover {
+    transform: scale(1.2);
 }
 
 .h4 {
@@ -73,5 +78,13 @@
     margin-top: 25px;
     display: flex;
     justify-content: center;
+}
+
+.nequiContainer img {
+    transition: transform 0.3s ease;
+}
+
+.nequiContainer img:hover {
+    transform: scale(1.2);
 }
 
