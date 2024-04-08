@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(245, 246, 255, 0.154);
 }
 
 .contactanosContainerSub {
@@ -68,7 +67,7 @@
 .h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: black;
+    color: rgb(42, 41, 41);
     font-size: 62px;
 }
 
@@ -76,7 +75,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-weight: normal;
-    color: #000000; 
+    color: rgb(42, 41, 41); 
     text-align: center;
 }
 
@@ -84,7 +83,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     font-weight: normal;
-    color: #000000; 
+    color: rgb(42, 41, 41); 
     text-align: center;
 }
 
