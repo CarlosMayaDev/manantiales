@@ -14,7 +14,7 @@ const Contactenos = () => {
                 <div className={styles.contactanosContainerSub}>
                     <div className={styles.whatsappContainer}>
                         <h2 className={styles.h2}>WhatsApp. </h2>
-                        <p className={styles.p}><br />Puedes contactarnos en el siguiente número: <br /></p>
+                        <p className={styles.p}><br />Puedes contactarnos en el siguiente número o dale click al ícono: <br /></p>
                         <h2 className={styles.h2}><br />300 5011257</h2>
                         <a href="https://wa.me/3005011257" target="_blank" rel="noreferrer"><img src={whatsappLogo} alt="" className={styles.whatsappImg}/></a>
                     </div>
