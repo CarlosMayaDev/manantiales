@@ -29,12 +29,12 @@ const Landing = () => {
         </div> */}
 
       <div className={styles.nuevoMiembro}>
-        <h1 className={styles.h7}>¿Es esta tu primera vez aquí en nuestra comunidad?</h1>
+        <h1 className={styles.h7}>¿Es tu primera vez en nuestra comunidad?</h1>
         <h3 className={styles.h3Bien}>Nuestra iglesia no se trata simplemente de un lugar físico; es una familia de creyentes, unidos por la gracia y el amor de Cristo. <br /><br />
           Si has tomado la decisión de dar un paso de fe y abrir tu corazón a una nueva relación con Jesús, estamos emocionados de celebrar contigo y ser parte de este emocionante capítulo de tu vida. <br /><br />Te invitamos a formar parte de nuestra comunidad y a experimentar todo lo que tenemos preparado para ti.</h3>
-          <Link to="/contactenos">
+          {/* <Link to="/contactenos">
           <h3 className={styles.h3Bien} >Quiero conocer mejor a Jesús.</h3>
-        </Link>
+        </Link> */}
       </div>
 
       <div className={styles.versiculoContainer}>
