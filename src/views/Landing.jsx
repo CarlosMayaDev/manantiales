@@ -1,7 +1,7 @@
 import React from "react";
 import ImageCarousel from "../components/Carousel";
 import styles from "./Landing.module.css";
-import videoLanding from "../assets/videoLanding.mp4";
+import videoLanding from "../assets/videoLanding.mov";
 import { Link, NavLink } from 'react-router-dom';
 import InstagramFeed from "../components/InstagramFeed";
 import Donaciones from "../components/Donaciones";
