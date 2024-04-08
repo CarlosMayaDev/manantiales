@@ -64,7 +64,7 @@ const NavBar = () => {
                 </li> */}
                 <li>
                     <NavLink to={"/contactenos"} className={styles.text}>
-                    <h3>CONTACTENOS</h3>
+                    <h3>CONTACTO</h3>
                     </NavLink>
                 </li>
             </ul>   
