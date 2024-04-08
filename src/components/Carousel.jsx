@@ -6,7 +6,7 @@ import imagen2 from "../assets/2TO5NDkdQVAq63fc8XWeo0nyHhbHfrdhWUpN3YLnjCg=_plai
 import imagen3 from "../assets/LOGOCONQUISTADORES.PNG";
 import imagen4 from "../assets/STAFF2.png";
 import imagen5 from "../assets/MULTIMEDIA2.jpg";
-import imagen6 from "../assets/INTERCESORES.jpeg";
+import imagen6 from "../assets/INTERCESORES.jpg";
 
 
 import Card from './Card';
