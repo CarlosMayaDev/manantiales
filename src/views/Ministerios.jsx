@@ -80,7 +80,7 @@ const Ministerios = () => {
                 </div>
             </div>
 
-            <div className={styles.ministeriosContainer}>
+            {/* <div className={styles.ministeriosContainer}>
                  <h1 className={styles.h7}>Red de Intercesores</h1>
                 <p className={styles.p}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis mi, a feugiat mauris accumsan vel. Integer tristique mi nec orci convallis, quis ultrices libero suscipit. Phasellus sit amet sodales dolor. Suspendisse potenti. Integer vestibulum nulla vel orci hendrerit, a fermentum ligula scelerisque. Nullam suscipit vel nisl sit amet luctus.
@@ -92,7 +92,7 @@ const Ministerios = () => {
                     <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis mi, a feugiat mauris accumsan vel. Integer tristique mi nec orci convallis, quis ultrices libero suscipit. Phasellus sit amet sodales dolor. Suspendisse potenti. Integer vestibulum nulla vel orci hendrerit, a fermentum ligula scelerisque. Nullam suscipit vel nisl sit amet luctus.</p>
                 </div>
                 <img src={imagenEvangelizar} alt="FotoEvangelizar" />
-            </div>
+            </div> */}
 
         
             <div className={styles.ministeriosContainer}>
