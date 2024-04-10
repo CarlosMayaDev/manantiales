@@ -5,10 +5,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: -160px;
+  /* margin-right: -160px; */
 }
 .cardContainer:hover {
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 .backgroundImage {
   width: 500px;
