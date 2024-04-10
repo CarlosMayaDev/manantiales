@@ -12,8 +12,8 @@ const Equipo = () => {
                 <h2 className={styles.h2}>Conoce al equipo ministerial que lidera nuestra comunidad. <br />Estamos comprometidos a servir, inspirar y guiar a cada persona en su viaje espiritual. <br />Juntos, buscamos glorificar a Dios y ser una fuente de amor y apoyo.</h2>
             </div> */}
 
-            <div className={styles.collageContainer}>
-                <img src={imagenCollage} alt=""className={styles.collageImage}/>
+            <div>
+                <img src={imagenCollage} alt="" style={{ width: '100%'}}/>
             </div>
 
             <div className={styles.descripcion}>
