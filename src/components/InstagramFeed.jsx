@@ -12,7 +12,7 @@ const InstagramFeed = () => {
     script.async = true;
 
     const iframe = document.createElement('iframe');
-    iframe.src = '//lightwidget.com/widgets/a4d42615699754c88779f86b51bbe950.html';  // Nueva URL del widget
+    iframe.src = 'https://cdn.lightwidget.com/widgets/a4d42615699754c88779f86b51bbe950.html';  // Nueva URL del widget
     iframe.scrolling = 'no';
     iframe.allowTransparency = true;
     iframe.className = 'lightwidget-widget';
