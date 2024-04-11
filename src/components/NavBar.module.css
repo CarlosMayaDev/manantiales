@@ -1,12 +1,12 @@
 .logo {
     margin-left: 40px;
-    width: 170px; 
+    width: 165px; 
     height: auto;
 }
 
 .logo2 {
     margin-left: 20px;
-    width: 130px; 
+    width: 125px; 
     height: auto;
 }
 
@@ -24,7 +24,7 @@
 
 nav {
     background-color: rgba(96, 114, 217, 0.9);  
-    padding: 20px;
+    padding: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
