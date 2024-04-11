@@ -1,29 +1,29 @@
 .donacionesContainer {
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: rgba(96, 114, 217, 0.5);
   }
 
   .h7Form {
     font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bold;
     color: #4c4c4c;
   }
 
   .textoDonaciones {
     font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     color: #4c4c4c;
     margin-bottom: 20px;
   }
 
   .botonDonar {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #ffffff;
     background-color: #ff3366;

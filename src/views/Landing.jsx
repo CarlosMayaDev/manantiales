@@ -13,7 +13,7 @@ const Landing = () => {
       <div className={styles.videoContainer}>
         <video src={videoLanding} autoPlay loop muted />
       </div>
-      <img src={collageLanding} alt="" style={{ width: '100%', marginTop: '100px' }}/>
+      <img src={collageLanding} alt="" style={{ width: '100%', marginTop: '50px', height: '100%' }}/>
 
         {/* <div className={styles.textContainer}>
           <div className={styles.bienvenidos}>
