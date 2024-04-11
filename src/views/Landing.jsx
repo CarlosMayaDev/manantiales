@@ -51,9 +51,9 @@ const Landing = () => {
       </div>
 
       <div className={styles.ministeriosContainer}>
-        <h1 className={styles.h7}>Nuestros ministerios</h1>
+        <h1 className={styles.h7}>Ministerios</h1>
         <p className={styles.p}>
-          Explora los diversos ministerios que ofrecemos, <br />cada uno diseñado para fortalecer tu fe y conectar contigo en tu viaje espiritual.
+          Explora nuestros ministerios, <br />cada uno diseñado para fortalecer tu fe y conectar contigo en tu viaje espiritual.
         </p>
       </div>
       <div className={styles.imageCarouselWithMargin}>
