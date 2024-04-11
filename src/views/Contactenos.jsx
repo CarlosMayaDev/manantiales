@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../views/Contactenos.module.css"
 import whatsappLogo from "../assets/whatsapp.png"
-import correoLogo from "../assets/correo.png"
+// import correoLogo from "../assets/correo.png"
 import facebookLogo from "../assets/facebook.png"
 import instagramLogo from "../assets/instagram.png"
 import youtubeLogo from "../assets/youtube.png"

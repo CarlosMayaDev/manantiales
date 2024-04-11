@@ -4,7 +4,7 @@ import imagenEvangelizar from "../assets/378317721_630360289263064_4111713357532
 import imagenAfirmar from "../assets/299980236_6156034497759389_2543737134630714748_n.jpg"
 import imagenDiscipular from "../assets/discipular.jpg";
 import imagenEnviar from "../assets/enviar.jpg";
-import collageConocenos from "../assets/ConocenosCollage.png"
+import collageConocenos from "../assets/Collage.png"
 
 
 const Conocenos = () => {
