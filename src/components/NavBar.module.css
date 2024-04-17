@@ -45,8 +45,6 @@ nav {
     display: none; /* Oculta la hamburguesa por defecto */
   }
 
-
-
 @media only screen and (max-width: 600px){
 
     .menu{
@@ -102,6 +100,4 @@ nav {
         padding: 7px;
         display: flex;
     }
-
-
 }
