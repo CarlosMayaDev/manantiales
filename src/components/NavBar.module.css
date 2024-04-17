@@ -27,6 +27,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 20px;
 }
 
 .list {
@@ -44,38 +45,127 @@ nav {
     display: none; /* Oculta la hamburguesa por defecto */
   }
 
-  @media only screen and (max-width: 600px){
+  @media (max-width: 1024px) {
+    .logo {
+        margin-left: 20px;
+        width: 115px; 
+        height: auto;
+    }
+    
+    .logo2 {
+        margin-left: 20px;
+        width: 100px; 
+        height: auto;
+    }
+    
+    .text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .text:hover {
+        text-decoration: underline; /* Agrega subrayado al pasar el mouse (si lo deseas) */
+    }
+    
+    nav {
+        background-color: rgba(96, 114, 217, 0.9);  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+    }
+    
+    .list {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        text-decoration: none;
+    }
+    
+    #toggler, .menu label {
+        display: none;
+    }
+    
+    .hamburger {
+        display: none; /* Oculta la hamburguesa por defecto */
+      }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 20px;
+        width: 80px; 
+        height: auto;
+    }
+    
+    .logo2 {
+        margin-left: 20px;
+        width: 80px; 
+        height: auto;
+    }
+    
+    .text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 8px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .text:hover {
+        text-decoration: underline; /* Agrega subrayado al pasar el mouse (si lo deseas) */
+    }
+    
+    nav {
+        background-color: rgba(96, 114, 217, 0.9);  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 15px;
+    }
+    
+    .list {
+        list-style: none;
+        display: flex;
+        gap: 18px;
+        text-decoration: none;
+    }
+    
+    #toggler, .menu label {
+        display: none;
+    }
+    
+    .hamburger {
+        display: none; /* Oculta la hamburguesa por defecto */
+      }
+}
+
+  @media only screen and (max-width: 425px){
 
     .menu{
-        width: 100%;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.5s ease;
     }
     .menu.open {
-        max-height: 100vh;
+        max-height: 80vh;
       }
     .list{
         flex-direction: column;
         align-items: end;
-        padding: 5px;
-    }
-    .nav label{
-        display: inline-flex;
-        align-items: center;
-        cursor: pointer;
-    }
-    #toggler:checked ~ .menu{
-        max-height: 100%;
+        padding: 2px;
     }
     .hamburger {
         display: block; /* Muestra la hamburguesa en pantallas más pequeñas */
-        margin-left: 20px;
+        margin-left: 10px;
       }
 
     .text {
         font-family: 'Montserrat', sans-serif;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
         color: #fff;
         text-decoration: none;
@@ -84,19 +174,20 @@ nav {
     .logo {
         margin-top: 10px;
         margin-left: 15px;
-        width: 110px; 
+        width: 80px; 
         height: auto;
     }
     
     .logo2 {
         margin-left: 15px;
-        width: 85px; 
+        width: 60px; 
         height: auto;
     }
 
     nav {
         background-color: rgba(96, 114, 217, 0.9);  
         padding: 7px;
-        display: flex;
+        width: 425px;
+        overflow: hidden;
     }
 }
