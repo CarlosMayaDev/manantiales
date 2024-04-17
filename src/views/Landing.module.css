@@ -1,5 +1,7 @@
-body {
-    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+/* Estilos generales */
+.main {
+    width: 100%; /* Ancho máximo */
+    margin: 0 auto; /* Centrar el contenido */
 }
 
 video {
@@ -186,16 +188,8 @@ video {
     position: relative;
 }
 
-@media only screen and (max-width: 600px) {
-
-    body {
-        overflow-x: hidden; /* Evita el desplazamiento horizontal */
-    }
-
+@media (max-width: 767px) {
     .main {
-        width: 100%; /* Ajusta el ancho al 100% */
-        max-width: 600px; /* Establece el ancho máximo */
-        margin: 0 auto; /* Centra el contenedor en la pantalla */
+        width: 100%; /* Ancho máximo más estrecho para pantallas pequeñas */
     }
-
 }

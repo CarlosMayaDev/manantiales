@@ -9,7 +9,7 @@ import collageLanding from "../assets/LandingCollage.png"
 
 const Landing = () => {
   return (
-    <div>
+    <div className={styles.main}>
       <div className={styles.videoContainer}>
         <video src={videoLanding} autoPlay loop muted />
       </div>

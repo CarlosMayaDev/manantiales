@@ -24,7 +24,6 @@
 
 nav {
     background-color: rgba(96, 114, 217, 0.9);  
-    padding: 17px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +44,7 @@ nav {
     display: none; /* Oculta la hamburguesa por defecto */
   }
 
-@media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px){
 
     .menu{
         width: 100%;
