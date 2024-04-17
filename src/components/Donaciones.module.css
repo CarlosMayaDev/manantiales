@@ -38,3 +38,132 @@
   .botonDonar:hover {
     background-color: #e6005c;
   }
+
+  @media (max-width: 1024px) {
+    .donacionesContainer {
+      margin-top: 50px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: center;
+      margin-bottom: 50px;
+      background-color: rgba(96, 114, 217, 0.5);
+    }
+  
+    .h7Form {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: #4c4c4c;
+    }
+  
+    .textoDonaciones {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      color: #4c4c4c;
+      margin-bottom: 20px;
+    }
+  
+    .botonDonar {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #ff3366;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border-radius: 30px;
+    }
+    
+    .botonDonar:hover {
+      background-color: #e6005c;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .donacionesContainer {
+      margin-top: 50px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: center;
+      margin-bottom: 50px;
+      background-color: rgba(96, 114, 217, 0.5);
+    }
+  
+    .h7Form {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: #4c4c4c;
+    }
+  
+    .textoDonaciones {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      color: #4c4c4c;
+      margin-bottom: 20px;
+    }
+  
+    .botonDonar {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #ff3366;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border-radius: 30px;
+    }
+    
+    .botonDonar:hover {
+      background-color: #e6005c;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .donacionesContainer {
+      margin-top: 50px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: center;
+      margin-bottom: 50px;
+      background-color: rgba(96, 114, 217, 0.5);
+    }
+  
+    .h7Form {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      color: #4c4c4c;
+    }
+  
+    .textoDonaciones {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      color: #4c4c4c;
+      margin-bottom: 20px;
+    }
+  
+    .botonDonar {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #ff3366;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border-radius: 30px;
+    }
+    
+    .botonDonar:hover {
+      background-color: #e6005c;
+    }
+  }
