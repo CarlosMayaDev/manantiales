@@ -24,7 +24,7 @@ const Contactenos = () => {
                             <p className={styles.h2}>manandeamorypoder@gmail.com</p>
                         </div>
                         <div className={styles.logosContainer}>
-                                <h2 className={styles.h2}>Síguenos en nuestras redes: </h2>
+                                <h2 className={styles.p}>Síguenos en nuestras redes: </h2>
                                 <a href="https://www.facebook.com/profile.php?id=100068672940551" target="_blank" rel="noreferrer"><img src={facebookLogo} alt="" className={styles.facebookImg}/></a>
                                 <a href="https://www.instagram.com/manan_de_amor_y_poder_/" target="_blank" rel="noreferrer"><img src={instagramLogo} alt="" className={styles.instagramImg}/></a>
                                 <a href="https://www.youtube.com/@manantialesdeamorypoder7941" target="_blank" rel="noreferrer"><img src={youtubeLogo} alt="" className={styles.youtubeImg}/></a>
