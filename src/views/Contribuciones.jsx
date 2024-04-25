@@ -15,7 +15,7 @@ const Contribuciones = () => {
                     <p className={styles.h4}>Realiza tus donaciones en este número vía nequi:</p>
                         <div className={styles.nequiContainer}>
                             <p className={styles.h3}>300 501 1257</p>
-                            <img src={nequiImagen} alt="" style={{ width: '35%'}}/>
+                            <img src={nequiImagen} alt="" className={styles.nequiImage}/>
                         </div>
             </div>
         </>
