@@ -1,7 +1,8 @@
 import React from "react";
 import ImageCarousel from "../components/Carousel";
 import styles from "./Landing.module.css";
-import videoLanding from "../assets/videoLanding.mov";
+// import videoLanding from "../assets/videoLanding.mov";
+import ImageLanding from "../assets/imageLanding.jpeg";
 import { NavLink } from 'react-router-dom';
 import InstagramFeed from "../components/InstagramFeed";
 import Donaciones from "../components/Donaciones";
@@ -11,7 +12,8 @@ const Landing = () => {
   return (
     <div className={styles.main}>
       <div className={styles.videoContainer}>
-        <video src={videoLanding} autoPlay loop muted />
+        {/* <video src={videoLanding} autoPlay loop muted /> */}
+        <img src={ImageLanding} alt="Imagen de portada" style={{ width: "100%", height: "auto" }}/>
       </div>
       <img src={collageLanding} alt="" style={{ width: '100%', marginTop: '50px', height: '100%' }}/>
 
