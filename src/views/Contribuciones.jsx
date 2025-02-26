@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../views/Contribuciones.module.css"
-import nequiImagen from "../assets/NEQUI.png"
+// import nequiImagen from "../assets/NEQUI.png"
+import ImageContribuciones from "../assets/imageContribuciones.png";
 
 const Contribuciones = () => {
     return (
@@ -12,11 +13,12 @@ const Contribuciones = () => {
                 </h2>
             </div>
             <div className={styles.donacionContainer}>
-                    <p className={styles.h4}>Realiza tus donaciones en este número vía nequi:</p>
+                    {/* <p className={styles.h4}>Realiza tus donaciones en este número vía nequi:</p>
                         <div className={styles.nequiContainer}>
                             <p className={styles.h3}>300 501 1257</p>
                             <img src={nequiImagen} alt="" className={styles.nequiImage}/>
-                        </div>
+                        </div> */}
+                    <img src={ImageContribuciones} alt="Imagen de contribuciones" style={{ width: "100%", height: "auto" }}/>
             </div>
         </>
     )
